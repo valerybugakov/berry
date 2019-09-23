@@ -39,4 +39,4 @@ jobs:
 
         yarn add @yarnpkg/pnpify -D
 
-        yarn pnpify ../scripts/e2e-res/angular-patch.js build
+        yarn pnpify $GITHUB_WORKSPACE/scripts/e2e-res/angular-patch.js build

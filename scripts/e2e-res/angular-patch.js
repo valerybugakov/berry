@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require('path');
 const pnpapi = require('pnpapi');
 const {setResolveHook, ModuleNotFoundException} = require('@angular-devkit/core/node/resolve');
