@@ -37,6 +37,6 @@ jobs:
         ng new berry-angular --interactive=false
         cd berry-angular
 
-        yarn add @yarnpkg/pnpify -D
+        yarn add @yarnpkg/pnpify @angular-devkit/core @babel/preset-env @babel/core -D
 
         yarn pnpify $GITHUB_WORKSPACE/scripts/e2e-res/angular-patch.js build
