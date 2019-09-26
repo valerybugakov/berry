@@ -38,7 +38,7 @@ Add `@yarnpkg/eslint-plugin-pnp` and `eslint-plugin-import` to the plugins secti
 
 ```json
 {
-  plugins: ["@yarnpkg/eslint-plugin-pnp", "import"],
+  plugins: ["@yarnpkg/eslint-plugin-pnp", "import"]
 }
 ```
 
@@ -49,7 +49,7 @@ Then configure the rules you want to use under the rules section.
     "rules": {
         "pnp/no-node-modules-strings": 1,
         "pnp/no-unqualified-webpack-config": 1,
-        "import/no-extraneous-dependencies": ["error"]
+        "import/no-extraneous-dependencies": ["error"],
         "import/no-unresolved": ["error", { commonjs: true, caseSensitive: true }]
     }
 }
