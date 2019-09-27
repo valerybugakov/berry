@@ -1,4 +1,3 @@
-/* eslint no-octal-escape: 0 */
 /**
  * @fileoverview Tests for no-unqualified-webpack-config rule.
  * @author Will Griffiths

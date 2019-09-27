@@ -1,4 +1,3 @@
-/* eslint no-octal-escape: 0 */
 /**
  * @fileoverview Tests for no-node-module-string rule.
  * @author Will Griffiths
