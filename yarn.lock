@@ -3839,7 +3839,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/semver@npm:^6.0.2":
+"@types/semver@npm:6.0.2, @types/semver@npm:^6.0.2":
   version: 6.0.2
   resolution: "@types/semver@npm:6.0.2"
   checksum: 212d9a825f7f49a8db7a5616462741fe02d5b5b493d88336f5b32e81cb23e14e303ae62e969630904bbd69ebfba7432e9546cb63f03fc5cd736d21aa9f6991ba
@@ -4611,9 +4611,12 @@ __metadata:
   dependencies:
     "@types/eslint": "npm:^6.1.1"
     "@types/estree": "npm:^0.0.39"
+    "@types/semver": "npm:6.0.2"
     eslint: "npm:^5.16.0"
     eslint-plugin-import: "npm:^2.18.2"
     mocha: "npm:^3.1.2"
+    semver: "npm:^6.3.0"
+    vscode-json-languageservice: "npm:^3.3.4"
   peerDependencies:
     eslint: ^3.18.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     eslint-plugin-import: ^2.18.2
@@ -15677,6 +15680,13 @@ babel-plugin-lazy-import@arcanis/babel-plugin-lazy-import:
   languageName: node
   linkType: hard
 
+"jsonc-parser@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "jsonc-parser@npm:2.1.1"
+  checksum: 4a17561109aafec8f02574b19df8214e06a279f4382fad00a2e487409988d9f64124ccd3cf8bba53b18264c8c1172ace5087e71590c8b446fe966d87971cb9d2
+  languageName: node
+  linkType: hard
+
 "jsonfile@npm:^2.1.0":
   version: 2.4.0
   resolution: "jsonfile@npm:2.4.0"
@@ -24279,6 +24289,39 @@ babel-plugin-lazy-import@arcanis/babel-plugin-lazy-import:
   bin:
     vsce: out/vsce
   checksum: c4324e3ea74eccca99a7aea1d898e508edddece1e4a6efbd720b6f9c5be4b36fe2c97cf06acc2c3b76c56e6bc63bf3656c85e286024d65cfd85540dcffc85fcd
+  languageName: node
+  linkType: hard
+
+"vscode-json-languageservice@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "vscode-json-languageservice@npm:3.3.4"
+  dependencies:
+    jsonc-parser: "npm:^2.1.1"
+    vscode-languageserver-types: "npm:^3.15.0-next.2"
+    vscode-nls: "npm:^4.1.1"
+    vscode-uri: "npm:^2.0.3"
+  checksum: 58918d37469b7b054ca0bddc15d6e0261b76bd647044430be820cf476759d8841a086ce4240be1f850e41d5f68b5dc470cae4ddc30c3f7eea1dbb276fbbb68dd
+  languageName: node
+  linkType: hard
+
+"vscode-languageserver-types@npm:^3.15.0-next.2":
+  version: 3.15.0-next.5
+  resolution: "vscode-languageserver-types@npm:3.15.0-next.5"
+  checksum: a351e8e0a29fe9fb28d65ddeb7527badd845cf61eca10e65cb097abfd1eb62bdcc7dd06c5448ec25c6f842882ef2eb0e2f78980f738e567f499dfbb344376665
+  languageName: node
+  linkType: hard
+
+"vscode-nls@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "vscode-nls@npm:4.1.1"
+  checksum: 09b920d183e60ad91bbed39c36288e47ac3cf7ba10bb0d364028fa49ecf96815591e14907ba465ae00aa7d051935a105669c80d1ea5cfef2849c767208963140
+  languageName: node
+  linkType: hard
+
+"vscode-uri@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "vscode-uri@npm:2.0.3"
+  checksum: 67a07f019993b2f8016020c5d000372f62d9e7b948e712273ce3e7d017156f8482333f7464775ebf149209756a19c0192d60498e37eae9d13145b6e5fe599576
   languageName: node
   linkType: hard
 

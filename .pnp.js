@@ -5832,9 +5832,12 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["@yarnpkg/eslint-plugin-pnp", "workspace:packages/yarnpkg-eslint-plugin-pnp"],
             ["@types/eslint", "npm:6.1.1"],
             ["@types/estree", "npm:0.0.39"],
+            ["@types/semver", "npm:6.0.2"],
             ["eslint", "npm:5.16.0"],
             ["eslint-plugin-import", "virtual:c7e8bd74148150625ae49b2cd1c3893c30ed6d0c371f69190d26fb2599030ec53495fc7053071a508fbf1e1d6e3a35f7e413fd7cdedd73a3a4b087a3d0c4de33#npm:2.18.2"],
-            ["mocha", "npm:3.5.3"]
+            ["mocha", "npm:3.5.3"],
+            ["semver", "npm:6.3.0"],
+            ["vscode-json-languageservice", "npm:3.3.4"]
           ]
         }]
       ]],
@@ -17037,6 +17040,14 @@ function $$SETUP_STATE(hydrateRuntimeState) {
           ]
         }]
       ]],
+      ["jsonc-parser", [
+        ["npm:2.1.1", {
+          "packageLocation": "./.yarn/cache/jsonc-parser-npm-2.1.1-d45fcf097e.zip/node_modules/jsonc-parser/",
+          "packageDependencies": [
+            ["jsonc-parser", "npm:2.1.1"]
+          ]
+        }]
+      ]],
       ["jsonfile", [
         ["npm:2.4.0", {
           "packageLocation": "./.yarn/cache/jsonfile-npm-2.4.0-20fcfd034e.zip/node_modules/jsonfile/",
@@ -25670,6 +25681,42 @@ function $$SETUP_STATE(hydrateRuntimeState) {
             ["url-join", "npm:1.1.0"],
             ["yauzl", "npm:2.10.0"],
             ["yazl", "npm:2.5.1"]
+          ]
+        }]
+      ]],
+      ["vscode-json-languageservice", [
+        ["npm:3.3.4", {
+          "packageLocation": "./.yarn/cache/vscode-json-languageservice-npm-3.3.4-01b12f182b.zip/node_modules/vscode-json-languageservice/",
+          "packageDependencies": [
+            ["vscode-json-languageservice", "npm:3.3.4"],
+            ["jsonc-parser", "npm:2.1.1"],
+            ["vscode-languageserver-types", "npm:3.15.0-next.5"],
+            ["vscode-nls", "npm:4.1.1"],
+            ["vscode-uri", "npm:2.0.3"]
+          ]
+        }]
+      ]],
+      ["vscode-languageserver-types", [
+        ["npm:3.15.0-next.5", {
+          "packageLocation": "./.yarn/cache/vscode-languageserver-types-npm-3.15.0-next.5-546ef033d7.zip/node_modules/vscode-languageserver-types/",
+          "packageDependencies": [
+            ["vscode-languageserver-types", "npm:3.15.0-next.5"]
+          ]
+        }]
+      ]],
+      ["vscode-nls", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/vscode-nls-npm-4.1.1-53b4946fe3.zip/node_modules/vscode-nls/",
+          "packageDependencies": [
+            ["vscode-nls", "npm:4.1.1"]
+          ]
+        }]
+      ]],
+      ["vscode-uri", [
+        ["npm:2.0.3", {
+          "packageLocation": "./.yarn/cache/vscode-uri-npm-2.0.3-105868365b.zip/node_modules/vscode-uri/",
+          "packageDependencies": [
+            ["vscode-uri", "npm:2.0.3"]
           ]
         }]
       ]],

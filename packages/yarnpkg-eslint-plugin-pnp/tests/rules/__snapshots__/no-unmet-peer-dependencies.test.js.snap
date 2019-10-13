@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+Array [
+  Array [
+    "no-deps",
+    "2.0.0",
+  ],
+]
+`;
+
+exports[`should resolve a module 1`] = `
+Object {
+  "name": "hoisting-peer-check-child",
+  "peerDependencies": Object {
+    "no-deps": "2.0.0",
+  },
+  "version": "1.0.0",
+}
+`;

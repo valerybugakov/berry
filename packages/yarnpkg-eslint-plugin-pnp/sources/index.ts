@@ -18,6 +18,7 @@ module.exports = {
       extends: [
         require.resolve('./configs/imports'),
         require.resolve('./configs/pnp'),
+        require.resolve('./configs/json'),
       ],
     },
   },
